@@ -1,0 +1,130 @@
+/* ----------------------------------------------------------------------
+| Z-indexes
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Colours - Brand
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Colours - Mono
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Colours - UI
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Colours - Validation
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Colours - Structure
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Fonts
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Fonts - weights
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Breakpoints
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Transitions
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Shadows
+|--------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------
+| Components - Structure sizes
+|--------------------------------------------------------------------- */
+:root {
+  --header-large-banner: 20rem;
+}
+
+.page__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.weather {
+  display: block;
+  height: 100vh;
+}
+
+.weather__box {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  display: block;
+  padding: 3em;
+  color: #ffffff;
+  min-width: 500px;
+}
+
+.weather__brf {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 27px;
+}
+.weather__brf select {
+  background-color: transparent;
+  border: 0px none;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 200;
+}
+
+.weather__summary {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+.weather__summary .weather__two {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 400;
+}
+.weather__summary .deg__current {
+  font-size: 40px;
+  font-weight: 300;
+}
+.weather__summary .deg__lower {
+  font-size: 40px;
+  color: #4062b2;
+  font-weight: 300;
+  padding-left: 20px;
+}
+
+.weather_one {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgs {
+  display: block;
+  align-items: center;
+  margin: 0px auto;
+}
+
+.deg {
+  display: none;
+}
+
+.weather__date,
+.weather__now,
+.weather__hum {
+  padding-bottom: 3px;
+  display: block;
+}
+
+.weather__now {
+  text-transform: capitalize;
+}
